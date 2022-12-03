@@ -27,7 +27,7 @@ const Path: React.FC<{children: React.ReactNode, path: string, description: stri
                     <h2 className="text-white text-md">{path} <span className="opacity-50 text-sm">{description}</span></h2>
                 </div>
                 <div className={`transform-gpu scale-y-[${open ? '-1' : '1'}] transition ease-in-out duration-300 opacity-50`}>
-                    <img src="/arrow-down.png" alt="arrow-down-2" width={15} height={18}/>
+                    <Image src="/arrow-down.png" alt="arrow-down-2" width={15} height={18}/>
                 </div>
             </div>
             <div className={`mt-3 ${!open && 'hidden'}`}>
